@@ -1,0 +1,85 @@
+# END USER LICENSE AGREEMENT (EULA) & PROPRIETARY TERMS
+
+**Software**: Project Sage EDR (Autonomous AI Endpoint Detection & Response)  
+**Copyright**: © 2026 Project Sage. All Rights Reserved.  
+**Version**: 1.0 (Commercial Preview / Beta Edition)
+
+---
+
+### IMPORTANT — READ CAREFULLY
+
+THIS END USER LICENSE AGREEMENT ("EULA" OR "AGREEMENT") IS A LEGAL AGREEMENT BETWEEN YOU (EITHER AN INDIVIDUAL OR A SINGLE LEGAL ENTITY) AND PROJECT SAGE ("LICENSOR", "COMPANY", "WE", OR "US"). 
+
+BY CLONING, DOWNLOADING, INSTALLING, RUNNING, ACCESSING, OR OTHERWISE USING ANY PART OF PROJECT SAGE EDR (INCLUDING ITS SOURCE CODE, COMPILED BINARIES, SCRIPTS, YARA RULES, AI EVALUATION LOGIC, WEBSITES, APIS, AND DOCUMENTATION, COLLECTIVELY REFERRED TO AS THE "SOFTWARE"), YOU AGREE TO BE BOUND BY THE TERMS OF THIS AGREEMENT.
+
+IF YOU DO NOT AGREE TO THE TERMS OF THIS AGREEMENT, DO NOT DOWNLOAD, INSTALL, COPY, ACCESS, OR USE THIS SOFTWARE.
+
+---
+
+### 1. PROPRIETARY SOFTWARE & INTELLECTUAL PROPERTY
+The Software is proprietary and contains valuable trade secrets, confidential information, and intellectual property belonging exclusively to Project Sage. The Software is **licensed, not sold**, and Licensor retains all right, title, interest, copyright, patent, trademark, and intellectual property rights in and to the Software, including any updates, modifications, bug fixes, or enhancements.
+
+---
+
+### 2. GRANT OF EVALUATION & BETA LICENSE
+Subject to the terms and restrictions of this Agreement, Licensor grants you a personal, revocable, non-exclusive, non-transferable, limited license to:
+1. Install and execute the Software on single-node endpoints under your direct control;
+2. Conduct internal security research, personal evaluation, threat modeling, and defensive testing of the Software's detection capabilities;
+3. Inspect the code solely for architectural review and security audit purposes.
+
+This license does **NOT** grant any rights to production commercial exploitation, multi-tenant fleet deployment, or resale.
+
+---
+
+### 3. COMMERCIAL USE & MONETIZATION RESTRICTIONS
+Project Sage EDR is a commercial software platform intended for future monetization under tiered commercial and enterprise licenses.
+
+Except as expressly authorized under a separate, written Commercial Agreement executed with Project Sage:
+* **Commercial Deployment**: You may NOT deploy the Software across commercial production infrastructure, corporate fleets, or enterprise networks without purchasing a valid commercial license.
+* **Managed Security Services (MSSP)**: You may NOT use the Software to provide managed security services, incident response consulting, endpoint monitoring, or security operations center (SOC) services to third parties for compensation or commercial gain.
+* **No Sublicensing or Resale**: You may NOT sublicense, rent, lease, sell, assign, distribute, host, outsource, or commercially exploit the Software or make the Software available to any third party.
+* **No White-labeling or Derivative Works**: You may NOT rebrand, rename, fork, incorporate into commercial products, or create derivative products based upon the Software.
+
+---
+
+### 4. RESTRICTIONS ON REVERSE ENGINEERING & CIRCUMVENTION
+You shall not, and shall not permit any third party to:
+1. Decompile, disassemble, reverse engineer, or attempt to derive the underlying algorithms, heuristics, proprietary prompt engineering, or source code of any compiled components, binaries, or libraries;
+2. Circumvent, disable, bypass, or defeat any security mechanism, authentication token, quarantine lock, or digital licensing/telemetry controls;
+3. Remove, alter, or obscure any copyright notices, proprietary markings, trademarks, or confidentiality legends present in or on the Software;
+4. Use the Software to benchmark against competing commercial products for unauthorized competitive publication without prior written consent.
+
+---
+
+### 5. DISCLAIMER OF WARRANTIES
+THE SOFTWARE IS PROVIDED ON AN "AS IS" AND "AS AVAILABLE" BASIS, WITHOUT WARRANTY OF ANY KIND, EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE.
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, LICENSOR EXPRESSLY DISCLAIMS ALL WARRANTIES, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, ACCURACY, AND NON-INFRINGEMENT.
+
+LICENSOR DOES NOT WARRANT THAT:
+1. THE SOFTWARE WILL DETECT ALL MALWARE, RANSOMWARE, ZERO-DAY EXPLOITS, OR UNAUTHORIZED SYSTEM INTRUSIONS;
+2. THE SOFTWARE WILL OPERATE UNINTERRUPTED, SECURE, OR ERROR-FREE;
+3. THE REMEDIATION, PROCESS TERMINATION, QUARANTINE VAULTING, OR NETWORK CONTAINMENT ACTIONS WILL NOT CAUSE UNINTENDED SYSTEM DISRUPTION, DATA LOSS, OR FALSE POSITIVES.
+
+YOU ARE SOLELY RESPONSIBLE FOR TESTING THE SOFTWARE IN A CONTROLLED STAGING ENVIRONMENT AND MAINTAINING ADEQUATE SYSTEM AND DATA BACKUPS.
+
+---
+
+### 6. LIMITATION OF LIABILITY
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL PROJECT SAGE, ITS FOUNDERS, CONTRIBUTORS, OR AFFILIATES BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, PUNITIVE, OR CONSEQUENTIAL DAMAGES (INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF BUSINESS PROFITS, BUSINESS INTERRUPTION, LOSS OF BUSINESS INFORMATION, LOSS OF DATA, SYSTEM DOWNTIME, FALSE-POSITIVE DISRUPTIONS, OR RANSOMWARE/MALWARE DAMAGE), ARISING OUT OF OR IN CONNECTION WITH THE USE, INABILITY TO USE, OR PERFORMANCE OF THE SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+---
+
+### 7. AUDIT & FEEDBACK
+Any bug reports, telemetry, suggestions, enhancements, or feedback provided to Project Sage regarding the Software may be used, implemented, and incorporated by Licensor into commercial versions without any obligation of compensation, royalty, or attribution.
+
+---
+
+### 8. TERMINATION
+This Agreement is effective until terminated. Your rights under this Agreement terminate automatically without notice if you fail to comply with any of its terms. Upon termination, you must immediately cease all use of the Software and permanently delete all copies in your possession.
+
+---
+
+### 9. CONTACT & COMMERCIAL LICENSING
+For enterprise fleet licensing, commercial partnerships, custom YARA rule feeds, or OEM integrations, please contact the maintainers via the official repository:
+* **Repository**: [https://github.com/Biswarup-das23/Sage-edr](https://github.com/Biswarup-das23/Sage-edr)

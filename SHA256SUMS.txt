@@ -1,0 +1,5 @@
+# Project Sage EDR v1.0.0-beta Official Checksums (SHA-256)
+# Verify with: Get-FileHash -Algorithm SHA256 <filename> (Windows) or sha256sum <filename> (Linux/macOS)
+
+02edb25f2f4d08b485bb39a73bb116135ce0673f02f62b2c235afdfd6abcd648  Sage EDR Setup 1.0.0-beta.exe
+13c57808df44125e01566f2de859418572bb4456e0e7c0c728b9d51ba609a2a3  Sage EDR 1.0.0-beta.exe
