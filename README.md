@@ -16,8 +16,8 @@ This is the **official public distribution repository** for **Project Sage EDR**
 
 | Operating System | Package Type | Architecture | Download Link |
 | :--- | :--- | :---: | :--- |
-| **Windows 10 / 11** | Setup Installer (`.exe`) | x64 | [**Download Setup Installer**](https://github.com/Jishnu09-siuu/Sage-edr-releases/releases/download/v1.0.0-beta/Sage.EDR.Setup.1.0.0-beta.exe) |
-| **Windows 10 / 11** | Standalone Portable (`.exe`) | x64 | [**Download Portable Edition**](https://github.com/Jishnu09-siuu/Sage-edr-releases/releases/download/v1.0.0-beta/Sage.EDR.1.0.0-beta.exe) |
+| **Windows 10 / 11** | Setup Installer (`.exe`) | x64 | [**Download Setup Installer**](https://github.com/Jishnu09-siuu/Sage-edr-releases/releases/download/v1.0.0-beta/Sage-EDR-Setup-1.0.0-beta.exe) |
+| **Windows 10 / 11** | Standalone Portable (`.exe`) | x64 | [**Download Portable Edition**](https://github.com/Jishnu09-siuu/Sage-edr-releases/releases/download/v1.0.0-beta/Sage-EDR-1.0.0-beta.exe) |
 | **macOS** *(Coming Soon)* | Disk Image (`.dmg`) | Universal (Apple Silicon / Intel) | *Scheduled for next rollout* |
 | **Linux** *(Coming Soon)* | AppImage / Debian (`.deb`) | x64 | *Scheduled for next rollout* |
 
@@ -28,16 +28,16 @@ This is the **official public distribution repository** for **Project Sage EDR**
 Always verify the integrity of downloaded binaries before installation:
 
 ```text
-Sage EDR Setup 1.0.0-beta.exe (SHA-256):
+Sage-EDR-Setup-1.0.0-beta.exe (SHA-256):
 02EDB25F2F4D08B485BB39A73BB116135CE0673F02F62B2C235AFDFD6ABCD648
 
-Sage EDR 1.0.0-beta.exe (SHA-256):
+Sage-EDR-1.0.0-beta.exe (SHA-256):
 13C57808DF44125E01566F2DE859418572BB4456E0E7C0C728B9D51BA609A2A3
 ```
 
 You can verify with PowerShell on Windows:
 ```powershell
-Get-FileHash -Algorithm SHA256 "Sage EDR Setup 1.0.0-beta.exe"
+Get-FileHash -Algorithm SHA256 "Sage-EDR-Setup-1.0.0-beta.exe"
 ```
 
 ---
