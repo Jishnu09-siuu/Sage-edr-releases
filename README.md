@@ -14,12 +14,11 @@ This is the **official public distribution repository** for **Project Sage EDR**
 
 ## 📥 Downloads (v1.0.0-beta)
 
-| Operating System | Package Type | Architecture | Direct Download | Alternative (.zip) |
-| :--- | :--- | :---: | :--- | :--- |
-| **Windows 10 / 11** | Setup Installer | x64 | [**Download .exe**](https://github.com/Jishnu09-siuu/Sage-edr-releases/releases/download/v1.0.0-beta/Sage-EDR-Setup-1.0.0-beta.exe) | [**Download .zip**](https://github.com/Jishnu09-siuu/Sage-edr-releases/releases/download/v1.0.0-beta/Sage-EDR-Setup-1.0.0-beta.zip) |
-| **Windows 10 / 11** | Standalone Portable | x64 | [**Download .exe**](https://github.com/Jishnu09-siuu/Sage-edr-releases/releases/download/v1.0.0-beta/Sage-EDR-1.0.0-beta.exe) | [**Download .zip**](https://github.com/Jishnu09-siuu/Sage-edr-releases/releases/download/v1.0.0-beta/Sage-EDR-1.0.0-beta.zip) |
-| **macOS** *(Coming Soon)* | Disk Image (`.dmg`) | Universal (ARM64 / Intel) | *Scheduled for next rollout* | — |
-| **Linux** *(Coming Soon)* | AppImage / Debian (`.deb`) | x64 | *Scheduled for next rollout* | — |
+| Operating System | Package Type | Architecture | Download Link |
+| :--- | :--- | :---: | :--- |
+| **Windows 10 / 11** | Setup Installer (`.exe`) | x64 | [**Download Windows Installer (.exe)**](https://github.com/Jishnu09-siuu/Sage-edr-releases/releases/download/v1.0.0-beta/Sage-EDR-Setup-1.0.0-beta.exe) |
+| **macOS** | Universal Disk Image / Bundle | Apple Silicon (M1/M2/M3) & Intel | [**Download macOS (.zip)**](https://github.com/Jishnu09-siuu/Sage-edr-releases/releases/download/v1.0.0-beta/macos-binaries.zip) |
+| **Linux** | AppImage & Debian Package | x64 (Ubuntu / Debian / CentOS) | [**Download Linux (.zip)**](https://github.com/Jishnu09-siuu/Sage-edr-releases/releases/download/v1.0.0-beta/linux-binaries.zip) |
 
 ---
 
