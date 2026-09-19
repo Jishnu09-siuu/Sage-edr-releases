@@ -54,10 +54,51 @@ Get-FileHash -Algorithm SHA256 "Sage-EDR-Setup-1.0.0-beta.exe"
    ```
    *(Optional lightweight routes: `ollama pull qwen2.5:0.5b` and `ollama pull llama3.2:1b`)*
 
-### Installation
-1. Run `Sage EDR Setup 1.0.0-beta.exe`.
-2. Launch **Sage EDR** from your Start Menu or Desktop shortcut.
-3. The native desktop control panel will start, initialize system baseline sensors, and open the web dashboard at `http://127.0.0.1:5050`.
+### Installation & Permission Guide
+
+#### 🪟 Windows 10 / 11 (SmartScreen & Administrator Privileges)
+
+Because **Sage EDR** is an endpoint security tool that inspects live processes and controls firewall isolation, Windows Security and User Account Control (UAC) will prompt for permissions during setup:
+
+1. **Windows SmartScreen Alert ("Windows protected your PC")**:
+   * **Why it appears**: Sage EDR v1.0.0-beta is a newly released build undergoing commercial certification. Microsoft Defender SmartScreen flags unrecognized new binaries by default.
+   * **How to proceed**: Click **"More info"** on the blue banner ➔ Click **"Run anyway"**.
+
+2. **User Account Control (UAC Prompt)**:
+   * **Why it appears**: As an EDR (Endpoint Detection and Response) platform, Sage requires administrative privileges to:
+     * Terminate malicious processes and inject memory blocks.
+     * Vault and encrypt suspicious files in the Fernet AES-256 quarantine vault.
+     * Isolate network adapters using Windows Firewall (`netsh`) during active containment.
+   * **How to proceed**: Click **"Yes"** to grant administrative permissions.
+
+3. **Launch the Application**:
+   * Launch **Sage EDR** from your Desktop shortcut or Start Menu.
+   * The desktop system tray icon will appear, initialize baseline sensors, and open your control dashboard at `http://127.0.0.1:5050`.
+
+---
+
+#### 🍏 macOS (Gatekeeper Verification)
+
+* **Why it appears**: macOS Gatekeeper checks new third-party applications before launch.
+* **How to proceed**:
+  1. Open the downloaded `.zip` and mount the `Sage-EDR-1.0.0-beta.dmg`.
+  2. Drag **Sage EDR** into your `/Applications` folder.
+  3. If prompted with *"macOS cannot verify the developer"*, go to **System Settings ➔ Privacy & Security**, scroll down, and click **"Open Anyway"** (or right-click the app and select **Open**).
+
+---
+
+#### 🐧 Linux (AppImage & Debian)
+
+1. Extract `linux-binaries.zip`.
+2. **For AppImage**: Make it executable and run:
+   ```bash
+   chmod +x Sage-EDR-1.0.0-beta.AppImage
+   ./Sage-EDR-1.0.0-beta.AppImage
+   ```
+3. **For Debian / Ubuntu (`.deb`)**:
+   ```bash
+   sudo dpkg -i sage-edr_1.0.0-beta_amd64.deb
+   ```
 
 ---
 
