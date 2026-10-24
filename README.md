@@ -1,6 +1,7 @@
 # Project Sage EDR — Official Releases & Downloads
 
 [![Release](https://img.shields.io/badge/Release-v1.0.0--beta-blue?style=flat-square)](https://github.com/Jishnu09-siuu/Sage-edr-releases/releases)
+[![Main Release](https://img.shields.io/badge/Release-main%20(Latest)-green?style=flat-square)](https://github.com/Jishnu09-siuu/Sage-edr-releases/releases/tag/main)
 [![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey?style=flat-square)](https://github.com/Jishnu09-siuu/Sage-edr-releases/releases)
 [![License](https://img.shields.io/badge/License-Proprietary%20EULA-crimson?style=flat-square)](LICENSE)
 [![Security](https://img.shields.io/badge/AI%20Engine-100%25%20Local%20Ollama-orange?style=flat-square)](https://ollama.ai)
@@ -9,6 +10,11 @@ This is the **official public distribution repository** for **Project Sage EDR**
 
 > [!NOTE]
 > **Project Sage EDR** is a proprietary commercial cybersecurity platform. The core detection engine and source code are maintained in a private repository. This repository provides signed releases, installers, and release notes for public evaluation and client deployments.
+
+### 🌟 Latest Release: Project Sage EDR Release main
+* **Enterprise Redesign**: Dual theme system (White & Very Light Blue + Dark Graphite), Google Outfit typography, clean sidebar rail, and dedicated More Details investigation suite.
+* **Full Endpoint Telemetry**: Integrated Endpoint Hardware & System Info diagnostics, process lineage graph, and real-time SSE threat event streams.
+* 👉 [**View Latest Official Release & Binaries (main)**](https://github.com/Jishnu09-siuu/Sage-edr-releases/releases/tag/main)
 
 ---
 
