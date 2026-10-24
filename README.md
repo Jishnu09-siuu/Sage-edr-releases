@@ -18,13 +18,17 @@ This is the **official public distribution repository** for **Project Sage EDR**
 
 ---
 
-## 📥 Downloads (v1.0.0-beta)
+## 📥 Downloads (Release `main` - Latest)
 
-| Operating System | Package Type | Architecture | Download Link |
-| :--- | :--- | :---: | :--- |
-| **Windows 10 / 11** | Setup Installer (`.exe`) | x64 | [**Download Windows Installer (.exe)**](https://github.com/Jishnu09-siuu/Sage-edr-releases/releases/download/v1.0.0-beta/Sage-EDR-Setup-1.0.0-beta.exe) |
-| **macOS** | Universal Disk Image / Bundle | Apple Silicon (M1/M2/M3) & Intel | [**Download macOS (.zip)**](https://github.com/Jishnu09-siuu/Sage-edr-releases/releases/download/v1.0.0-beta/macos-binaries.zip) |
-| **Linux** | AppImage & Debian Package | x64 (Ubuntu / Debian / CentOS) | [**Download Linux (.zip)**](https://github.com/Jishnu09-siuu/Sage-edr-releases/releases/download/v1.0.0-beta/linux-binaries.zip) |
+| Operating System | Package Type | Architecture | Download Link | File Size |
+| :--- | :--- | :---: | :--- | :---: |
+| **Windows 10 / 11** | Setup Installer (`.exe`) | x64 | [**Download Windows Setup Installer (.exe)**](https://github.com/Jishnu09-siuu/Sage-edr-releases/releases/download/main/Sage.EDR.Setup.1.0.0-beta.exe) | ~79 MB |
+| **Windows 10 / 11** | Portable / Standalone (`.exe`) | x64 | [**Download Windows Portable (.exe)**](https://github.com/Jishnu09-siuu/Sage-edr-releases/releases/download/main/Sage.EDR.1.0.0-beta.exe) | ~79 MB |
+| **macOS** | Disk Image (`.dmg`) | Apple Silicon (M1/M2/M3/M4) | [**Download macOS Installer (.dmg)**](https://github.com/Jishnu09-siuu/Sage-edr-releases/releases/download/main/Sage.EDR-1.0.0-beta-arm64.dmg) | ~100 MB |
+| **macOS** | Application Bundle (`.zip`) | Apple Silicon (M1/M2/M3/M4) | [**Download macOS Bundle (.zip)**](https://github.com/Jishnu09-siuu/Sage-edr-releases/releases/download/main/Sage.EDR-1.0.0-beta-arm64-mac.zip) | ~95 MB |
+| **Linux** | Universal AppImage | x64 (Any Linux distro) | [**Download Linux AppImage**](https://github.com/Jishnu09-siuu/Sage-edr-releases/releases/download/main/Sage.EDR-1.0.0-beta.AppImage) | ~108 MB |
+| **Linux** | Debian / Ubuntu Package (`.deb`) | x64 (Ubuntu / Debian / Kali) | [**Download Debian Package (.deb)**](https://github.com/Jishnu09-siuu/Sage-edr-releases/releases/download/main/sage-edr-launcher_1.0.0-beta_amd64.deb) | ~73 MB |
+| **Integrity Hashes** | SHA-256 Checksums | All Platforms | [**Download SHA256SUMS.txt**](https://github.com/Jishnu09-siuu/Sage-edr-releases/releases/download/main/SHA256SUMS.txt) | 582 B |
 
 ---
 
@@ -33,19 +37,21 @@ This is the **official public distribution repository** for **Project Sage EDR**
 Always verify the integrity of downloaded binaries before installation:
 
 ```text
-Sage-EDR-Setup-1.0.0-beta.exe (SHA-256):
-02EDB25F2F4D08B485BB39A73BB116135CE0673F02F62B2C235AFDFD6ABCD648
-
-Sage-EDR-Setup-1.0.0-beta.zip (SHA-256):
-B3DED6C130E7C8C27D9DECE953A7299108E8DB073B6461209BDAAEE3F92ECCCF
-
-Sage-EDR-1.0.0-beta.exe (SHA-256):
-13C57808DF44125E01566F2DE859418572BB4456E0E7C0C728B9D51BA609A2A3
+ec7af8580658f6631689dc83f2cb58f7b1fa49e040c62c06c85e0e6349f070de  Sage.EDR.1.0.0-beta.exe
+5e1b2925a7b9caef75be3a46d40892d7a86f8393868947707aa58f54d7aee9eb  Sage.EDR.Setup.1.0.0-beta.exe
+49a6be370f7fba069c1b0e09e322cdcfefa2a9f13ac56f815c92ebccaf4e579c  Sage.EDR-1.0.0-beta-arm64-mac.zip
+2dbffbc33f9abbad09dc73e0b7a2656b3392ae7f3d372be8caa5132bd4bfc0bc  Sage.EDR-1.0.0-beta-arm64.dmg
+6c197f4d976cd79d7b8cd73f0b3f0e4417bb4d48ab27b8c73d2fd4f89a969e3a  Sage.EDR-1.0.0-beta.AppImage
+e7dcb54029a72e3214af29004d7a94ec6a915d7cb4eef164260c5a3ca6bdb2d2  sage-edr-launcher_1.0.0-beta_amd64.deb
 ```
 
 You can verify with PowerShell on Windows:
 ```powershell
-Get-FileHash -Algorithm SHA256 "Sage-EDR-Setup-1.0.0-beta.exe"
+Get-FileHash -Algorithm SHA256 "Sage.EDR.Setup.1.0.0-beta.exe"
+```
+Or on macOS / Linux:
+```bash
+shasum -a 256 "Sage.EDR-1.0.0-beta-arm64.dmg"
 ```
 
 ---
@@ -87,7 +93,7 @@ Because **Sage EDR** is an endpoint security tool that inspects live processes a
 
 * **Why it appears**: macOS Gatekeeper checks new third-party applications before launch.
 * **How to proceed**:
-  1. Open the downloaded `.zip` and mount the `Sage-EDR-1.0.0-beta.dmg`.
+  1. Open the downloaded `Sage.EDR-1.0.0-beta-arm64.dmg` (or extract `Sage.EDR-1.0.0-beta-arm64-mac.zip`).
   2. Drag **Sage EDR** into your `/Applications` folder.
   3. If prompted with *"macOS cannot verify the developer"*, go to **System Settings ➔ Privacy & Security**, scroll down, and click **"Open Anyway"** (or right-click the app and select **Open**).
 
@@ -95,15 +101,14 @@ Because **Sage EDR** is an endpoint security tool that inspects live processes a
 
 #### 🐧 Linux (AppImage & Debian)
 
-1. Extract `linux-binaries.zip`.
-2. **For AppImage**: Make it executable and run:
+1. **For AppImage**: Make it executable and run:
    ```bash
-   chmod +x Sage-EDR-1.0.0-beta.AppImage
-   ./Sage-EDR-1.0.0-beta.AppImage
+   chmod +x Sage.EDR-1.0.0-beta.AppImage
+   ./Sage.EDR-1.0.0-beta.AppImage
    ```
-3. **For Debian / Ubuntu (`.deb`)**:
+2. **For Debian / Ubuntu (`.deb`)**:
    ```bash
-   sudo dpkg -i sage-edr_1.0.0-beta_amd64.deb
+   sudo dpkg -i sage-edr-launcher_1.0.0-beta_amd64.deb
    ```
 
 ---
