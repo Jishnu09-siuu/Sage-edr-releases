@@ -13,6 +13,9 @@ This is the **official public distribution repository** for **Project Sage EDR**
 
 ### 🌟 Latest Release: Project Sage EDR Release main
 * **Enterprise Redesign**: Dual theme system (White & Very Light Blue + Dark Graphite), Google Outfit typography, clean sidebar rail, and dedicated More Details investigation suite.
+* **Safe Process Whitelisting & Apple Code-Signature Verification**: Native macOS application verification (Google Chrome, Safari, Brave, Edge, Slack, VS Code, Cursor, Zoom) with cryptographic `codesign` validation to prevent false-positive termination.
+* **Dynamic System Health Assessment**: Automated threat and sensor risk evaluation engine replacing manual simulation switches.
+* **Ollama Engine & Model Provisioning**: Real-time layer download modal popup with live transferred MB/GB tracking, connection verification, and robust uninstalled/offline error reporting.
 * **Full Endpoint Telemetry**: Integrated Endpoint Hardware & System Info diagnostics, process lineage graph, and real-time SSE threat event streams.
 * 👉 [**View Latest Official Release & Binaries (main)**](https://github.com/Jishnu09-siuu/Sage-edr-releases/releases/tag/main)
 
